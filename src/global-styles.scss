@@ -1,0 +1,32 @@
+//* Base styles
+@use './sass/base/resets';
+@use './sass/base/variables';
+
+//* Components styles
+@use './sass/components/new';
+
+//* Tailwind styles 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: gainsboro;
+}
+
+
+.socialbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(243 246 246/1);
+}
+
+
+.information{
+    background-color: rgb(243 246 246/1);
+}
